@@ -1,6 +1,5 @@
 import giphy from './giphy.gif';
 import './App.css';
-import { Component } from 'react';
 import { Componente1 } from './Componente/Componente1';
 import { ComponenteDos } from './Componente/ComponenteDos';
 import { ComponenteTres } from './Componente/ComponenteTres';
