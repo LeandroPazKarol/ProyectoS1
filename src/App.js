@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+import giphy from './giphy.gif';
 import './App.css';
+import { Component } from 'react';
+import { Componente1 } from './Componente/Componente1';
+import { ComponenteDos } from './Componente/ComponenteDos';
+import { ComponenteTres } from './Componente/ComponenteTres';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={giphy} className="App-logo" alt="logo" />
+       <Componente1/>
+        <br></br>
+        <ComponenteDos/>
+        <br></br>
+        <ComponenteTres/>
       </header>
     </div>
   );
